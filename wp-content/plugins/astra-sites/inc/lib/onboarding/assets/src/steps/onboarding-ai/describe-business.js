@@ -85,7 +85,6 @@ const DescribeBusiness = ( { onClickContinue, onClickPrevious } ) => {
 				path: `zipwp/v1/description`,
 				method: 'POST',
 				headers: {
-					'content-type': 'application/json',
 					'X-WP-Nonce': astraSitesVars.rest_api_nonce,
 				},
 				data: {
@@ -131,7 +130,6 @@ const DescribeBusiness = ( { onClickContinue, onClickPrevious } ) => {
 				path: `zipwp/v1/keywords`,
 				method: 'POST',
 				headers: {
-					'content-type': 'application/json',
 					'X-WP-Nonce': astraSitesVars.rest_api_nonce,
 				},
 				data: {

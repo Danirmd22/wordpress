@@ -1471,7 +1471,6 @@ const ImportAiSite = ( { onClickNext } ) => {
 				path: `zipwp/v1/migration-status?uuid=${ websiteInfo.uuid }&token=${ randomToken }`,
 				method: 'GET',
 				headers: {
-					'content-type': 'application/json',
 					'X-WP-Nonce': astraSitesVars.rest_api_nonce,
 					_ajax_nonce: astraSitesVars._ajax_nonce,
 				},

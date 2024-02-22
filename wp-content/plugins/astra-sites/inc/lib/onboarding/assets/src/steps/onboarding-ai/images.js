@@ -329,7 +329,6 @@ const Images = ( { onClickPrevious, onClickNext } ) => {
 				method: 'POST',
 				headers: {
 					'X-WP-Nonce': astraSitesVars.rest_api_nonce,
-					'content-type': 'application/json',
 				},
 			} );
 			const imageResponse = res.data?.data || [];
@@ -379,7 +378,6 @@ const Images = ( { onClickPrevious, onClickNext } ) => {
 			path: 'zipwp/v1/template-keywords',
 			method: 'POST',
 			headers: {
-				'content-type': 'application/json',
 				'X-WP-Nonce': astraSitesVars.rest_api_nonce,
 			},
 			data: {
@@ -478,7 +476,6 @@ const Images = ( { onClickPrevious, onClickNext } ) => {
 			path: 'zipwp/v1/user-details',
 			method: 'POST',
 			headers: {
-				'content-type': 'application/json',
 				'X-WP-Nonce': astraSitesVars.rest_api_nonce,
 			},
 			data: {

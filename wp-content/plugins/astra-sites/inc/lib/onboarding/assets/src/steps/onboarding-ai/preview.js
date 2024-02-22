@@ -180,7 +180,6 @@ const SitePreview = ( { onClickContinue, setAIStep } ) => {
 			path: 'astra-sites/v1/zip-plan',
 			method: 'POST',
 			headers: {
-				'content-type': 'application/json',
 				'X-WP-Nonce': astraSitesVars.rest_api_nonce,
 			},
 		} ).then( ( response ) => {

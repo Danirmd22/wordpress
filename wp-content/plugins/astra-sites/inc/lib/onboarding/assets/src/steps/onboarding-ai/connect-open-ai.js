@@ -38,7 +38,6 @@ const ConnectOpenAI = ( { onClickContinue, onLater } ) => {
 				method: 'GET',
 				headers: {
 					'X-WP-Nonce': astraSitesVars.rest_api_nonce,
-					'content-type': 'application/json',
 				},
 			} );
 			onLater();
