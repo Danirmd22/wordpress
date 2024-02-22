@@ -147,7 +147,6 @@ const WebsiteBuilding = ( { onClickNext } ) => {
 				path: `zipwp/v1/import-status?uuid=${ websiteInfo.uuid }&token=${ randomToken }`,
 				method: 'GET',
 				headers: {
-					'content-type': 'application/json',
 					'X-WP-Nonce': astraSitesVars.rest_api_nonce,
 					_ajax_nonce: astraSitesVars._ajax_nonce,
 				},

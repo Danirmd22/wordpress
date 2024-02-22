@@ -66,7 +66,6 @@ const Features = () => {
 			path: 'zipwp/v1/site-features',
 			method: 'GET',
 			headers: {
-				'content-type': 'application/json',
 				'X-WP-Nonce': astraSitesVars.rest_api_nonce,
 			},
 		} );
